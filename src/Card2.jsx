@@ -27,7 +27,9 @@ export default function Card2() {
                   height: "14%",
                 }}
               >
-                <Col> 
+                <Col sm={2}> 
+                <img style={{width:"40px"}}
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"/>
                 <h6 className="mt-3" style={{ padding:"0", margin:"0"}}>
                     Stranger Things
                 </h6>

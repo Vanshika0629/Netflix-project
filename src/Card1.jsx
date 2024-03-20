@@ -26,11 +26,6 @@ export default function Cardcode() {
               justifyContent: "right",
             }}
           >
-            <img
-              className="p-0"
-              height={350}
-              src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
-            />
             <video
               style={{
                 position: "absolute",
@@ -44,6 +39,11 @@ export default function Cardcode() {
               }}
               autoPlay
               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+            />
+            <img
+              className="p-0"
+              height={350}
+              src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
             />
           </Col>
         </Row>

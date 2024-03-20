@@ -1,5 +1,4 @@
 import React from 'react'
-import Style from "./CardCss.module.css"
 
 export default function Home() {
   return (

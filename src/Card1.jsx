@@ -3,21 +3,22 @@ import Card from "react-bootstrap/Card";
 import style from "./CardCss.module.css";
 import { Col, Container, Row } from "react-bootstrap";
 
-export default function Cardcode() {
+export default function Card1() {
   return (
     <>
       <div
-        style={{ backgroundColor: "black", color: "white" }}
+        style={{ backgroundColor:"black",color:"white"}}
         className="card"
       >
-        <Row className="p-5">
-          <Col className="pt-5">
-            <h1 style={{fontSize:"38px",fontStyle:"bold"}}>Enjoy on your TV</h1>
-            <p style={{fontSize:"27px"}}className="pt-3">
+        <div className="card-body">
+        <Row style={{ height:"70vh"}}className="p-5">
+          <Col style={{marginTop:"10px"}}className="pt-5">
+            <h1 style={{marginLeft:"45px",marginTop:"11px",fontSize:"40px",fontWeight:"bolder",marginRight:"15px"}}>Enjoy on your TV</h1>
+            <h4 style={{marginLeft:"45px",fontSize:"27px", marginRight:"15px"}}className="pt-3">
               {" "}
               Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
               Blu-ray players and more.{" "}
-            </p>
+            </h4>
           </Col>
           <Col
             style={{
@@ -34,13 +35,13 @@ export default function Cardcode() {
                 marginTop: "75px",
                 marginBottom: "75px",
                 marginLeft: "70px",
-                marginRight: "70px",
+                marginRight: "99px",
                 height: "34vh",
               }}
-              autoPlay
+              autoPlay loop playsInline muted
               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
             />
-            <img
+            <img style={{marginRight:"31px"}}
               className="p-0"
               height={350}
               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
@@ -48,6 +49,7 @@ export default function Cardcode() {
           </Col>
         </Row>
       </div>
+    </div>
     </>
   );
 }

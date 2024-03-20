@@ -26,7 +26,25 @@ export default function Card2() {
                   borderRadius: "10px",
                   height: "14%",
                 }}
-              ></Row>
+              >
+                <Col> 
+                <h6 className="mt-3" style={{ padding:"0", margin:"0"}}>
+                    Stranger Things
+                </h6>
+                <h6 className="text-primary">Downloading...</h6>
+                </Col>
+                <Col></Col>
+              </Row>
+            </div>
+          </Col>
+          <Col style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+            <div style={{ width:"600px"}}>
+                <p style={{fontSize:"50px",fontWeight:"bolder"}}>
+                    Download yoour shows to watch offline
+                </p>
+                <p style={{ fontSize:"22px"}}>
+                    Save your favourites easily and always have something to watch.
+                </p>
             </div>
           </Col>
         </Row>

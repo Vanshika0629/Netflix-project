@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import style from "./CardCss.module.css";
 import { Col, Container, Row } from "react-bootstrap";
 
 export default function Card1() {

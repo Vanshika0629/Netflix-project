@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from "./Home.jsx";
+import Home from "./Home.jsx"
 import Card1 from "./Card1.jsx";
 import Card2 from './Card2.jsx';
 

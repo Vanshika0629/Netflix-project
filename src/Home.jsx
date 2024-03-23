@@ -14,13 +14,13 @@ export default function Home() {
         >
           <Col>
             <center>
-              <div style={{color:"white"}}>
+              <div style={{ color: "white" }}>
                 <b>
-                  <h1 style={{fontStyle:"bold",marginTop:"250px"}}>
+                  <h1 style={{ fontStyle: "bold", marginTop: "250px" }}>
                     Unlimited movies, TV shows and more
                   </h1>
                 </b>
-                <h3 style={{marginTop:"15px",fontSize:"34px"}}>
+                <h3 style={{ marginTop: "15px", fontSize: "34px" }}>
                   Watch anywhere. Cancel anytime.
                 </h3>
                 <h5>
@@ -30,8 +30,18 @@ export default function Home() {
                 </h5>
                 <div>
                   <input
-                    style={{marginTop:"12px"}}
-                    placeholder="Email address"
+                    style={{
+                      marginTop: "10px",
+                      background:
+                        "linear-gradient(rgba(1,1,1,0.7),rgba(1,1,1,0.7))",
+                      width: "300px",
+                      height: "50px",
+                      borderRadius: "5px",
+                      marginRight: "10px",
+                      borderColor:"white",
+                      borderWidth:"1px",
+                    }}
+                    placeholder="  Email address" 
                     type="text"
                   />
                   <button
@@ -42,9 +52,10 @@ export default function Home() {
                       height: "50px",
                       width: "150px",
                       fontSize: "20px",
+                      marginBottom: "5px"
                     }}
                   >
-                    Get Started
+                    Get Started 
                   </button>
                 </div>
               </div>

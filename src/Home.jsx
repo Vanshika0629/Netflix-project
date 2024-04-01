@@ -1,46 +1,37 @@
 import React from "react";
-import { Col } from "react-bootstrap";
-
+import Style from "./front.module.css";
 export default function Home() {
   return (
     <div>
-      <div className="card">
-        <div
+      <div className={Style.boxs}>
+      <div
           style={{
+            backgroundImage:'linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg")',
             height: "95vh",
-            backgroundImage:
-              'url("https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg")',
+            boxShadow:"1000px"
           }}
         >
-          <Col>
-            <center>
-              <div style={{ color: "white" }}>
-                <b>
-                  <h1 style={{ fontStyle: "bold", marginTop: "250px" }}>
+          <div style={{
+            display:"flex",
+            alignItems:"center",
+            justifyContent:"center"
+          }}>
+            <center>{" "}
+              <div className={Style.txtcard}>
+              <b>
+                  <h1 className={`${Style.txt}`} style={{fontWeight:"bolder",fontSize:"52px"}}>
                     Unlimited movies, TV shows and more
                   </h1>
                 </b>
-                <h3 style={{ marginTop: "15px", fontSize: "34px" }}>
+                <h4 style={{color:"white",marginTop:"10px"}}>
                   Watch anywhere. Cancel anytime.
-                </h3>
-                <h5>
-                  {" "}
+                </h4>
+                <h5 style={{color:"white",marginTop:"10px"}}>
                   Ready to watch? Enter your email to create or restart your
-                  membership.{" "}
+                  membership.
                 </h5>
                 <div>
-                  <input
-                    style={{
-                      marginTop: "10px",
-                      background:
-                        "linear-gradient(rgba(1,1,1,0.7),rgba(1,1,1,0.7))",
-                      width: "300px",
-                      height: "50px",
-                      borderRadius: "5px",
-                      marginRight: "10px",
-                      borderColor:"white",
-                      borderWidth:"1px",
-                    }}
+                  <input className={`${Style.inp}`}
                     placeholder="  Email address" 
                     type="text"
                   />
@@ -54,14 +45,12 @@ export default function Home() {
                       fontSize: "20px",
                       marginBottom: "5px"
                     }}
-                  >
-                    Get Started 
-                  </button>
-                </div>
+                  ><b> Get Started </b></button>
+                  </div>
               </div>
             </center>
-          </Col>
-        </div>
+          </div>
+          </div>
       </div>
     </div>
   );

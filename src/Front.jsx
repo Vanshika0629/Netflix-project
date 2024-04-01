@@ -2,6 +2,7 @@ import React from 'react'
 import Home from "./Home.jsx"
 import Card1 from "./Card1.jsx";
 import Card2 from './Card2.jsx';
+import Card3 from './Card3.jsx';
 
 export default function Front() {
   return (
@@ -12,6 +13,7 @@ export default function Front() {
         <hr style={{margin:"0" , height:"10px",backgroundColor:"black",opacity:"0.8"}}></hr>
         <Card2/>
         <hr style={{margin:"0" , height:"10px",backgroundColor:"black",opacity:"0.8"}}></hr>
+        <Card3/>
     </div>
   )
 }

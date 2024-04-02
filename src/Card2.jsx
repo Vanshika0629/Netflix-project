@@ -19,25 +19,31 @@ export default function Card2() {
                 style={{
                   border: "solid",
                   position: "absolute",
-                  width: "330px",
+                  width: "340px",
                   marginLeft: "70px",
                   marginRight: "70px",
                   marginBottom: "70px",
                   marginTop:"-99px",
                   backgroundColor: "black",
                   borderRadius: "10px",
-                  height: "15%",
+                  height: "23%",
                 }}
               >
+                  <Col style={{margin:"0"}}>
                   <img
-                    style={{ width:"65px", height: "80%" }}
+                    style={{ width:"68px", height: "80%" }}
                     src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
                   />
+                  </Col>
                   <Col>
-                  <p className="mt-2" style={{fontWeight:"bold",fontSize:"14px",padding:"0",margin:"0"}}>Stranger Things</p>
-                  <p className="text-primary" style={{fontSize:"14px"}}>Downloading...</p>
+                  <h6 className="mt-4" style={{fontWeight:"bolder",fontSize:"14px",marginLeft:"-20px"}}>Stranger Things</h6>
+                  <h6 className="text-primary" style={{fontSize:"14px",marginLeft:"-20px"}}>Downloading...</h6>
                 </Col>
-                <Col></Col>
+                <Col style={{margin:"0",padding:"0"}}>
+                <img style={{
+                  height:"9vh",marginLeft:"20px",marginTop:"25px"
+                }}src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"/>
+                </Col>
               </Row>
             </div>
           </Col>
@@ -48,11 +54,11 @@ export default function Card2() {
               alignItems: "center",
             }}
           >
-            <div style={{ width: "400px" }}>
-              <p style={{ fontSize: "45px", fontWeight: "bolder" }}>
+            <div style={{ width: "400px",marginRight:"60px" }}>
+              <p style={{ fontSize: "50px", fontWeight: "bolder" }}>
                 Download your shows to watch offline
               </p>
-              <p style={{ fontSize: "22px" }}>
+              <p style={{ fontSize: "25px" }}>
                 Save your favourites easily and always have something to watch.
               </p>
             </div>

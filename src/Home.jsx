@@ -1,5 +1,5 @@
-import React from "react";
 import Style from "./front.module.css";
+
 export default function Home() {
   return (
     <div>
@@ -45,7 +45,8 @@ export default function Home() {
                       fontSize: "20px",
                       marginBottom: "5px"
                     }}
-                  ><b> Get Started </b></button>
+                  ><b> Get Started </b>
+                </button>
                   </div>
               </div>
             </center>

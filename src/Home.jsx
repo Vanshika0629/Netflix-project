@@ -1,4 +1,5 @@
 import Style from "./front.module.css";
+import Nav from "./Nav.jsx";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
             boxShadow:"1000px"
           }}
         >
+          <Nav/>
           <div style={{
             display:"flex",
             alignItems:"center",

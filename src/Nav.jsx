@@ -20,7 +20,7 @@ export default function Nav() {
                         Hindi
                     </option>
                 </select>
-                <Link to='signin' className="btn mx-3" style={{backgroundColor:"red",color:"white"}}> Sign in</Link>
+                <Link to='signin' className="btn mx-3" style={{backgroundColor:"red",color:"white",width:"85px"}}> <b>Sign In</b></Link>
             </Navbar.Collapse>
         </Container>
     </Navbar>

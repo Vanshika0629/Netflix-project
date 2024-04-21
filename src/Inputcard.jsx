@@ -1,5 +1,5 @@
 import Nav from "./Nav.jsx";
-import Style from "./front.module.css";
+import Style from "../css/front.module.css";
 import { useState } from "react"
 import { useNavigate } from 'react-router-dom';
 

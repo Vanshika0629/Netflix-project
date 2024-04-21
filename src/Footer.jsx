@@ -1,6 +1,6 @@
 import React from "react";
 import {Col,Row} from "react-bootstrap";
-import Style from "./front.module.css";
+import Style from "../css./front.module.css";
 
 export default function Footer() {
   return (

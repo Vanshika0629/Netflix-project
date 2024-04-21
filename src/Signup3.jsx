@@ -1,6 +1,6 @@
 import { Button, Col, Row } from "react-bootstrap";
 import Footer from "./Footer.jsx";
-import style from "./sign.module.css";
+import style from "./Sign.module.css";
 import { useEffect, useState } from "react";
 import Nav from "./Nav.jsx";
 

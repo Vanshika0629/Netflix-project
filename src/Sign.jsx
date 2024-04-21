@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from "./Footer.jsx";
-import style from "./sign.module.css";
+import style from "./Sign.module.css";
 import Nav from "./Nav.jsx";
 
 export default function Sign() {
@@ -28,5 +28,5 @@ export default function Sign() {
         </div>
         <Footer/>
     </div>
-  )
+  );
 }

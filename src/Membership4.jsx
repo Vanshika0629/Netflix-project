@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Nav.jsx";
-import Footer from "./Footer";
+import Footer from "./Footer.jsx";
 import { Col, Row } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import Mstyle from "../css/membership.module.css";

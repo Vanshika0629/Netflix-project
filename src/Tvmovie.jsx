@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Homenavbar from "./Homenavbar";
-import Tvcard from "./Tvcard";
-import Tvcontent from "./Tvcontent";
+import Homenavbar from "./Homenavbar.jsx";
+import Tvcard from "./Tvcard.jsx";
+import Tvcontent from "./Tvcontent.jsx";
 import { useLocation } from "react-router-dom";
 
 export default function Tvmovie() {

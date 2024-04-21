@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import Nav from './Nav.jsx'
-import Footer from './Footer'
-import Membership1 from './Membership1'
-import Membership2 from './Membership2'
-import Membership3 from './Membership3'
+import Nav from "./Nav.jsx";
+import Footer from "./Footer.jsx"
+import Membership1 from "./Membership1.jsx"
+import Membership2 from "./Membership2.jsx"
+import Membership3 from "./Membership3.jsx"
 export default function Member() {
   const [member,setMember]=useState(1)
   function changeMember(data){

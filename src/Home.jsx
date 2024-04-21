@@ -1,6 +1,6 @@
-import Homecard from "./Homecard";
-import Homecontent from "./Homecontent";
-import Homenavbar from "./Homenavbar";
+import Homecard from "./Homecard.jsx";
+import Homecontent from "./Homecontent.jsx";
+import Homenavbar from "./Homenavbar.jsx";
 
 export default function Home() {
   return (

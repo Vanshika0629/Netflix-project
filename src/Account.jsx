@@ -1,8 +1,8 @@
 import { Col, Row } from "react-bootstrap";
 import Nav from "./Nav.jsx";
-import Overview from "./Overview";
-import Membership from "./Membership";
-import Security from "./Security";
+import Overview from "./Overview.jsx";
+import Membership from "./Membership.jsx";
+import Security from "./Security.jsx";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Style from "../css/account.module.css";

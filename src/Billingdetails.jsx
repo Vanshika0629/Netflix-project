@@ -1,6 +1,6 @@
 import { Card, Table } from "react-bootstrap";
 import Nav from "./Nav.jsx";
-import Changeplanfooter from "./Changeplanfooter";
+import Changeplanfooter from "./Changeplanfooter.jsx";
 
 export default function Billingdetails() {
   return (

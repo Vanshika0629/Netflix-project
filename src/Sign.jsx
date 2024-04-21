@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from "./Footer.jsx";
-import style from "./Sign.module.css";
 import Nav from "./Nav.jsx";
+import style from "../css/Sign.module.css";
 
 export default function Sign() {
   return (

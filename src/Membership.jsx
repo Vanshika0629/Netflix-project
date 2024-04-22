@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Membership() {
   return (
-    <div>
+    <div> 
       <h1 style={{ fontWeight: "bold" }}>Membership</h1>
       <p style={{ fontSize: "20px" }}>Plan Details</p>
       <Card>

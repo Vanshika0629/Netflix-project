@@ -6,9 +6,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
 import { IconContext } from "react-icons";
-import Mdata from "../data/movie.json";
-import Hstyle from "../css/home.module.css";
-import Arrow from "../assets/OIP-removebg-preview.png";
+import Mdata from "./data/movie.json";
+import Hstyle from "./css/home.module.css";
+import Arrow from "./assets/OIP-removebg-preview.png";
 
 export default function Homecontent() {
   const [show, setShow] = useState(false);

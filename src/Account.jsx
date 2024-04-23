@@ -5,7 +5,7 @@ import Membership from "./Membership.jsx";
 import Security from "./Security.jsx";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Style from "../css/account.module.css";
+import Style from "./css/account.module.css";
 
 export default function Account() {
   const[page,setPage] = useState(1)

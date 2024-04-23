@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Button, Col, Row } from "react-bootstrap";
 import Footer from "./Footer.jsx";
-import style from "../css/Sign.module.css";
+import style from "./css/Sign.module.css";
 import Nav from "./Nav.jsx";
 
 export default function Signup3({x}) {

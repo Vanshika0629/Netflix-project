@@ -1,6 +1,6 @@
 import { Card, Col, Row } from "react-bootstrap";
 import Nav from "./Nav.jsx";
-import Style from "../css/account.module.css";
+import Style from "./css/account.module.css";
 import { Link } from "react-router-dom";
 
 export default function Managepayment() {

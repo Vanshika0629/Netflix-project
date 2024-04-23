@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import Mstyle from "../css/membership.module.css";
+import Mstyle from "./css/membership.module.css";
 import { Link } from "react-router-dom";
 export default function Profiles() {
   return (

@@ -1,6 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 import Nav from "./Nav.jsx";
-import Style from "../css/changeplan.module.css";
+import Style from "./css/changeplan.module.css";
 import Changeplanfooter from "./Changeplanfooter.jsx";
 import { Link } from "react-router-dom";
 

@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Mdata from "../data/movie.json";
+import Mdata from "./data/movie.json";
 export default function Dummy() {
   let Movdata = [
     { title: "Dark", movie: [] },

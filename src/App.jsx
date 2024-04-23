@@ -1,4 +1,4 @@
-import { BrowserRouter,Route,Routes } from 'react-router-dom';
+import { BrowserRouter,Route,Routes } from "react-router-dom";
 import React from 'react'
 import Front from "./Front.jsx";
 import Signup from "./Signup.jsx";

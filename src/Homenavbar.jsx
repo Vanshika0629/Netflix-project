@@ -1,7 +1,7 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
-import Nimg from "../assets/Logonetflix.png";
-import Hstyle from "../css/home.module.css";
+import Nimg from "./assets/Netflix.png";
+import Hstyle from "./css/home.module.css";
 import { useEffect, useState } from "react";
 export default function Homenavbar() {
   const navigate = useNavigate()

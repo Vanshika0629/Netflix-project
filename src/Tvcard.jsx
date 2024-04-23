@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
-import Hstyle from "../css/home.module.css";
-import Mainlogo from "../assets/Money-Heist-Logo-PNG.png";
+import Hstyle from "./css/home.module.css";
+import Mainlogo from "./assets/Money-Heist-Logo-PNG.png";
 import { Link } from "react-router-dom";
 export default function Tvcard({ t }) {
   const [type, setType] = useState();

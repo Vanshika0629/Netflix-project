@@ -1,5 +1,5 @@
 import { Card, Col, Row } from "react-bootstrap";
-import Style from "../css/account.module.css";
+import Style from "./css/account.module.css";
 import { Link } from "react-router-dom";
 
 export default function Overview({f}) {

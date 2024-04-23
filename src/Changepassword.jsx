@@ -1,5 +1,5 @@
 import Nav from "./Nav.jsx";
-import Style from "../css/changepass.module.css";
+import Style from "./css/changepass.module.css";
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import Changeplanfooter from "./Changeplanfooter.jsx";

@@ -3,7 +3,7 @@ import Nav from "./Nav.jsx";
 import Footer from "./Footer.jsx";
 import { Col, Row } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-import Mstyle from "../css/membership.module.css";
+import Mstyle from "./css/membership.module.css";
 export default function Membership2({p}) {
   function handleClick(){
     p(3)

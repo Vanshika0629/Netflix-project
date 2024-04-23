@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-import Style from "../css/front.module.css";
+import Style from "./css/front.module.css";
 import img from "./assets/Netflix.png";
 import { Link } from "react-router-dom";
 export default function Nav() {

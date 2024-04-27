@@ -22,17 +22,18 @@ export default function App() {
       <Route path='/signin' element={<Sign/>}/>
       <Route path='/signup' element={<Signup/>}/>
       <Route path='/home' element={<Home/>}/>
-      <Route path='/acc' element={<Account/>}/>
+      <Route path='/vplayer' element={<Vplayer/>}/>
+      <Route path='/account' element={<Account/>}/>
+      <Route path='/tvmovie' element={<Tvmovie/>}/>
       <Route path='/member' element={<Member/>}/>
-      <Route path='/pro' element={<Profiles/>}/>
-      <Route path='/play' element={<Vplayer/>}/>
-      <Route path='/tv' element={<Tvmovie/>}/>
-      <Route path='/cplan' element={<Changeplan/>}/>
+      <Route path='/profiles' element={<Profiles/>}/>
+      <Route path='/changeplan' element={<Changeplan/>}/>
       <Route path='/managepayment' element={<Managepayment/>}/>
       <Route path='/changepassword' element={<Changepassword/>}/>
       <Route path='/billingdetails' element={<Billingdetails/>}/>
+     
 
     </Routes>
     </BrowserRouter>    
-  )
+  );
 }

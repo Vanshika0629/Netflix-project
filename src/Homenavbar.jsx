@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Nimg from "./assets/Netflix.png";
 import Hstyle from "./css/home.module.css";
 import { useEffect, useState } from "react";
+
 export default function Homenavbar() {
   const navigate = useNavigate()
   const [search , setSearch] = useState(false)

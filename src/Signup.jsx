@@ -43,14 +43,14 @@ export default function Signup() {
                     <h2>Joining Netflix is easy.</h2>
                     <p style={{fontSize:"20px",width:"400px"}}>Enter your password and youll be watching in no time.</p>
                     <div className='mt-4'>
-                        <from>
+                        <form>
                             <label>Email</label>
                             <p><b>{mail}</b></p>
                             <input type='password' className='form-control'placeholder='Enter password' style={{height:"60px",width:"450px",border:"solid 1px grey"}}></input>
                             <Button variant='danger' onClick={()=>{
                                 setStep(2)
                             }} style={{width:"100%",marginTop:"10px",height:"70px",backgroundColor:"red",fontSize:"25px"}}>Next</Button>
-                            </from>
+                            </form>
                     </div>
                 </div>
             </div>

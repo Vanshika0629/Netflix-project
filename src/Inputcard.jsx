@@ -43,8 +43,8 @@ export default function Inputcard() {
                 </h5>
                 <div >
                  <form onSubmit={handles} >
-                  <input
-                    className={`${Style.inp} `}
+                  <input style={{color:"white"}}
+                    className={`${Style.inp} ` }
                     placeholder="Email Adress"
                     type="email"
                     onChange={(e) => {

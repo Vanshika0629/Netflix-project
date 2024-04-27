@@ -24,7 +24,7 @@ export default function Changeplan() {
               tablet. Computer and TV not included. Download on 1 device.
             </Col>
             <Col xs="2" className={`${Style.changeplancol3} `}>
-              ₹149/month
+               ₹149/month
             </Col>
           </Row>
 
@@ -32,7 +32,7 @@ export default function Changeplan() {
             <Col className={`${Style.changeplancol1} `} xs="2">
               Basic
             </Col>
-            <Col className={`${Style.changeplancol2} `}>
+            <Col className={`${Style.changeplancol2}`}>
               Good video quality in HD (720p). Watch ad-free on any phone,
               tablet, computer or TV. Download on 1 device.
             </Col>

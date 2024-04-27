@@ -145,7 +145,7 @@ export default function Signup3({x}) {
                     <p>720p (HD)</p>
                     <hr />
                     <p className={style.txt1}> Supported devices</p>
-                    <p>TV, computer, mobile phone, tablet</p>
+                    <p style={{fontSize:"15.5px"}}>TV, computer, mobile phone, tablet</p>
                     <hr />
                     <p className={style.txt1}>
                       {" "}

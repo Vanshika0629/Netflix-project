@@ -2,7 +2,7 @@ import Footer from "./Footer.jsx";
 import Nav from "./Nav.jsx";
 import { Button } from "react-bootstrap";
 import { SiVisa } from "react-icons/si";
-import { FaCcMastercard } from "react-icons/fa";
+//import { FaCcMastercard } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import { useEffect, useState } from "react";
 //import { Link } from "react-router-dom";

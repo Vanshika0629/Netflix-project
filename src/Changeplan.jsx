@@ -3,8 +3,10 @@ import Nav from "./Nav.jsx";
 import Style from "./css/changeplan.module.css";
 import Changeplanfooter from "./Changeplanfooter.jsx";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function Changeplan() {
+  const [plan, setPlan] = useState()
   return (
     <>
       <Nav/>
@@ -15,28 +17,28 @@ export default function Changeplan() {
           <p>Change Streaming Plan</p>
         </div>
         <div style={{ marginLeft: "110px", marginRight: "100px" }}>
-          <Row className={`${Style.changeplanrow} `}>
-            <Col className={`${Style.changeplancol1} `} xs="2">
+          <Row className={`${Style.changeplanrow}`}>
+            <Col className={`${Style.changeplancol1}`} xs="2">
               Mobile
             </Col>
-            <Col className={`${Style.changeplancol2} `}>
+            <Col className={`${Style.changeplancol2}`}>
               Good video quality in SD (480p). Watch ad-free on any phone or
               tablet. Computer and TV not included. Download on 1 device.
             </Col>
-            <Col xs="2" className={`${Style.changeplancol3} `}>
-               ₹149/month
+            <Col xs="2" className={`${Style.changeplancol3}`}>
+                ₹149/month
             </Col>
           </Row>
 
-          <Row className={`${Style.changeplanrow} `}>
-            <Col className={`${Style.changeplancol1} `} xs="2">
+          <Row className={`${Style.changeplanrow}`}>
+            <Col className={`${Style.changeplancol1}`} xs="2">
               Basic
             </Col>
             <Col className={`${Style.changeplancol2}`}>
               Good video quality in HD (720p). Watch ad-free on any phone,
               tablet, computer or TV. Download on 1 device.
             </Col>
-            <Col xs="2" className={`${Style.changeplancol3} `}>
+            <Col xs="2" className={`${Style.changeplancol3}`}>
               ₹199/month
             </Col>
           </Row>

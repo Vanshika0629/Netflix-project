@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./Nav.jsx";
+//import Nav from "./Nav.jsx";
 import Footer from "./Footer.jsx";
 import { Col, Row } from "react-bootstrap";
 import { Button } from "react-bootstrap";
@@ -11,7 +11,6 @@ export default function ({p}) {
   }
   return (
     <div>
-      <Nav />
       <hr></hr>
       <div
         style={{
@@ -192,7 +191,7 @@ export default function ({p}) {
                   </Col>
                   <hr></hr>
                   <h3>Something Else</h3>
-                  <p>Enjoy Netflix with other internet conncted devices </p>
+                  <p>Enjoy Netflix with other internet connected devices </p>
                 </Row>
                 <Button onClick={handleClick}
                   style={{

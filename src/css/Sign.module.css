@@ -20,6 +20,7 @@
     width: 350px;
     border: solid 1px white;
     border-radius: 10px;
+    color:white;
   }
   .inp::placeholder {
     color: white;
@@ -34,7 +35,7 @@
       ),
       rgb(29, 82, 157);
     color: white;
-    height: 90px;
+    height: 92px;
     border-radius: 10px;
     margin: 10px;
    
@@ -42,7 +43,7 @@
   .coltwo {
     background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(109, 59, 227) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);
     color: white;
-    height: 68px;
+    height: 90pxpx;
     border-radius: 10px;
     margin: 10px;
    

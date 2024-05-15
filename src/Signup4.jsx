@@ -1,6 +1,9 @@
 import Footer from "./Footer.jsx";
 import Nav from "./Nav.jsx";
-export default function Signup4() {
+export default function Signup4({x}) {
+   function nextP(){
+    x(5)
+   }
   return (
     <>
       
@@ -37,7 +40,7 @@ export default function Signup4() {
 Cancel easily online.</h6>
           </center>
           <div>
-            <div className="card mb-2" style={{height:"60px",border:"solid grey 1px"}}>
+            <div className="card mb-2" onClick={nextP}style={{height:"60px",border:"solid grey 1px"}}>
                 <div className="card-body">
                     <p>Credit or Debit Card</p>
                 </div>

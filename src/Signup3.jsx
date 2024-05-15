@@ -4,10 +4,11 @@ import Footer from "./Footer.jsx";
 import style from "./css/Sign.module.css";
 import Nav from "./Nav.jsx";
 
-export default function Signup3({x}) {
+export default function Signup3({x,y}) {
   const[shadow, setShadow] = useState(1)
   function stepClick(){
     x(4)
+    y(shadow)
   }
  useEffect(()=>{
  
@@ -67,7 +68,7 @@ export default function Signup3({x}) {
             <Col style={{paddingRight:"0"}} onClick={() =>{
               setShadow(1)
             }} >
-              <div id="one"  className="card " >
+              <div id="one"  className="card" style={{cursor:"pointer"}} >
                 <div>
                   <div className={style.colone}>
                     <h5 className="pt-2 px-2">Mobile</h5>
@@ -114,7 +115,7 @@ export default function Signup3({x}) {
             <Col style={{paddingRight:"0"}}onClick={() =>{
               setShadow(2)
             }} >
-              <div className="card" id="two" >
+              <div className="card" id="two" style={{height:"96%",cursor:"pointer"}} >
                 <div>
                   <div className={style.coltwo} onClick={() =>{
               setShadow(2)
@@ -163,7 +164,7 @@ export default function Signup3({x}) {
             <Col style={{paddingRight:"0"}} onClick={() =>{
               setShadow(3)
             }}>
-              <div id="three" className="card">
+              <div id="three" className="card" style={{cursor:"pointer"}}>
                 <div>
                   <div className={style.colthree}>
                     <h5 className="pt-2 px-2">Standard</h5>
@@ -210,7 +211,7 @@ export default function Signup3({x}) {
             <Col style={{paddingRight:"0"}} onClick={() =>{
               setShadow(4)
             }}>
-              <div id="four" className="card">
+              <div id="four" className="card" style={{cursor:"pointer"}}>
                 <div>
                   <div className={style.colfour}>
                     <h5 className="pt-2 px-2">Premium</h5>

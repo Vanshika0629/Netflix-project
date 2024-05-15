@@ -1,4 +1,4 @@
-import ReactPlayer from "react-player"
+//import ReactPlayer from "react-player"
 import { Col, Row } from "react-bootstrap";
 import Hstyle from "./css/home.module.css";
 import Mainlogo from "./assets/Money-Heist-Logo-PNG.png";
@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Homecard() {
   return (
     <div className={Hstyle.main}>
-       <ReactPlayer url='https://www.youtube.com/watch?v=uGXB1PFg7E0'height="100%" width="100%" playing={true} controls={false}></ReactPlayer>
+      {/*<ReactPlayer url='https://www.youtube.com/watch?v=uGXB1PFg7E0'height="100%" width="100%" playing={true} controls={false}></ReactPlayer>*/}
       <Row className={Hstyle.mainrow}>
         <Col>
           <div className={Hstyle.con}>

@@ -6,8 +6,24 @@ import { useNavigate } from "react-router-dom";
 export default function Inputcard() {
   const navigate = useNavigate()
   const [mail , setMail] = useState("")
-  function handles(){
-    navigate("/signup" , {state:mail})
+  function handles(e){
+    e.preventDefault()
+    fetch('http://127.0.0.1:3000/checkmail',
+      {
+        method: 'POST',headers:{
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({email:mail})})
+        .then((response) => response.json().then((dataa)=>{
+          console.log(dataa);
+          if(dataa.message === "exist"){
+            alert("Email already exist")
+            }
+            else{
+              navigate("/signup",{state:mail})
+        }
+  }))
+    //navigate("/signup" , {state:mail})
   }
   return (
     <>
@@ -45,7 +61,7 @@ export default function Inputcard() {
                  <form onSubmit={handles} >
                   <input style={{color:"white"}}
                     className={`${Style.inp} ` }
-                    placeholder="Email Adress"
+                    placeholder="Email Address"
                     type="email"
                     onChange={(e) => {
                      setMail(e.target.value)

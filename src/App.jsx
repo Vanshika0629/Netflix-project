@@ -26,7 +26,7 @@ export default function App() {
       <Route path='/account' element={<Account/>}/>
       <Route path='/tvmovie' element={<Tvmovie/>}/>
       <Route path='/member' element={<Member/>}/>
-      <Route path='/profiles' element={<Profiles/>}/>
+      <Route path='/pro' element={<Profiles/>}/>
       <Route path='/changeplan' element={<Changeplan/>}/>
       <Route path='/managepayment' element={<Managepayment/>}/>
       <Route path='/changepassword' element={<Changepassword/>}/>
